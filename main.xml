@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body>
+        <section>
+                <title>Welcome to the Club Hub!</title>
+                <content>Club Hub is a place to get information about all your favorite IMSA clubs...all on one site! This resource is still a a work in progress. Check back soon for more!</content>
+        </section>
+		<section>
+				<title>Calendar</title>
+				<calendar>
+						<source>src=eap2d5a6slhdkfv7st2t8f3uic%40group.calendar.google.com&amp;color=%23875509&amp;</source>
+						<source>src=imsaunderground%40gmail.com&amp;color=%232952A3&amp;</source>
+				</calendar>
+		</section>
+        <section>
+                <title>News</title>
+                <content>This website is changing every day! Come here often to see the progress it's making as it is being built.</content>
+                <feed>feed.xml</feed>
+        </section>
+</body>
+

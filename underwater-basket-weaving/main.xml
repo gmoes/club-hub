@@ -1,0 +1,19 @@
+<body>
+        <section>
+                <title>Welcome to the Underwater Basket Weaving Club!</title>
+                <content>Club Hub is a place to get information about all your favorite IMSA clubs...all on one site! This resource is still a a work in progress. Check back soon for more!</content>
+        </section>
+		<section>
+				<title>Calendar</title>
+				<calendar>
+					<source>src=eap2d5a6slhdkfv7st2t8f3uic%40group.calendar.google.com&amp;color=%23875509&amp;</source>
+				</calendar>
+		</section>
+		<section>
+				<title>Recent</title>
+				<content>The latest and greatest from the Underwater Basket Weaving Club.</content>
+				<feed>feed.xml</feed>
+		</section>
+</body>
+
+

@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body, html
+{
+	height: 100%;
+}
+
+body 
+{
+	background-size: 150%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: white;
+	font-family: 'Roboto', serif;
+	margin: 0%;
+	padding: 0%;
+}
+
+h1, h2 
+{
+	font-family: 'Roboto Slab', serif;
+}
+
+#main-body
+{
+		width: 100%;
+		height: 100%;
+}
+
+.body-box 
+{
+	width: 72%;
+	margin: 0% 5% 2% 0%;
+	background-color: rgba(255, 255, 255,1);
+	padding: 2%;
+	border: 1px solid rgb(200,200,200);
+	box-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,0.3);
+	float: right;
+	border-radius: 2px;
+}
+
+.body-box-clear 
+{
+	margin: 2% 10%;
+	padding: 2%;
+}
+
+.footer 
+{
+	clear: both;
+    float: none;
+	background-color: black;
+	margin-top: 5%;
+	padding: 2% 12%;
+}
+
+img.footer-logo {
+        width: 5%;
+        height: auto;
+        vertical-align: bottom;
+}
+
+footer 
+{
+	color: white;
+}
+
+.branding-box 
+{
+	margin: 3% 10% 2% 10%;
+	clear: both;
+}
+
+#club-logo 
+{	
+	width: 40%;
+	height: auto;
+}
+
+.menu
+{
+	width: 12%;
+	margin: 2% 0% 5% 5%;
+	padding: 2% 0%;
+	border-right: 1px solid rgb(200,200,200);
+	float: left;
+}
+
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+
+.menu li
+{
+        margin: 10% 0%;
+	max-width: 100%;
+        border-top-left-radius: 2em;
+        border-bottom-left-radius: 2em;
+}
+
+.menu a
+{
+        max-width: 100%;
+	border-top-left-radius: 2em;
+        border-bottom-left-radius: 2em;
+}
+
+.menu a:link, .menu a:visited
+{
+	display: block;
+	color: white;
+	background-color: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.menu a:hover, .menu a:active
+{
+	/*background-color: rgb(55,171,200);*/
+	background-color: rgba(255,255,255, 0.5);
+}
+
+.feed
+{
+        margin: 2% 2%;
+	padding: 2%;
+	border: 1px dashed rgb(200,200,200);
+}
+
+.feed .feedtitle
+{
+        padding: 0px;
+        margin: 0px;
+}
+
+.feed .feedcontent
+{
+        float:left;
+}
+
+.feed img
+{
+        float: left;
+        margin: 2%;
+        max-width: 30%;
+}
+
+.subtitle
+{
+        color: rgb(100,100,100);
+        font-size: 80%;
+        display: inline;
+        margin-right: 1em;
+}
+
+hr
+{
+        border-width: 1px;
+        border-style: dashed;
+        border-color: rgb(55,171,200);
+}
+
+.calendar iframe
+{
+	width: 100%;
+	height: 400px;
+}
